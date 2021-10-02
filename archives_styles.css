@@ -1,0 +1,73 @@
+/*
+  STYLE SHEET FOR ARCHIVES_STYLES.html
+  Maria McKenzie
+*/
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #63B3ED;
+  color: #FFFFFF;
+  height: 300px;
+  font-size: 40px;
+}
+
+/* Paragraphs */
+#p1, #p2, #p3, #p4, #p5 {
+  text-align: left;
+  font-size: 18px;
+  color: #2D3748;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+  border-bottom: 1px solid grey;
+  border-bottom-width: thin;
+  padding-bottom: 30px;
+}
+
+h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: #48BB78;
+}
+
+
+/* Link */
+a:link,  a:visited {
+  text-align: left;
+  color: #4299E1;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #2C5282;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+  padding-left: 130px;
+}
+
+/* GRID */
+.container {
+  display: grid;
+  align-content: space-evenly;
+  grid-auto-rows: auto auto;
+  grid-row-gap: 50px;
+}
+
+.header {
+  grid-row: 1;
+}
+
+.main {
+  grid-row: 2;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+.footer {
+  grid-row: 3;
+}

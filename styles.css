@@ -1,0 +1,142 @@
+/*
+  STYLE SHEET FOR INDEX.html
+  Maria McKenzie
+*/
+
+
+/* PICTURES */
+#pic {
+  border-radius: 50%;
+  max-height: 200px;
+}
+
+#pic2 {
+  max-width: 30%;
+  float: right;
+  padding-left: 20px;
+}
+
+#pic3 {
+  max-width: 30%;
+  float: left;
+  padding-right: 20px;
+}
+
+
+/* TEXT */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #63B3ED;
+  color: #FFFFFF;
+  height: 400px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 36px;
+  }
+
+/* Article */
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 32px;
+  color: #48BB78;
+  padding-bottom: 0px;
+}
+
+#a1 {
+  border-bottom: 2px solid grey;
+  padding-bottom: 40px;
+}
+
+#a2 {
+  padding-top: 20px;
+}
+
+/* Author & Date of Article */
+#auth1, #auth2 {
+  color: #718096;
+  padding-bottom: 20px;
+}
+
+/* About Section*/
+#s1 {
+  color: #000000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#about {
+  background-color: #E2E8F0;
+  padding: 10px;
+}
+
+/* Social Media and Archives Section*/
+#s2, #s3 {
+  color: #48BB78;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Lists */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Links */
+a:link,  a:visited {
+  color: #4299E1;
+  text-decoration: none;
+}
+
+/* Other paragraphs */
+#p1, #p2, #p3, #p4, #p5 {
+  text-align: left;
+  font-size: 18px;
+  color: #2D3748;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+/* Footer */
+footer {
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #2C5282;
+  font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+  padding-left: 130px;
+}
+
+/* GRID */
+.container {
+  display: grid;
+  align-content: space-evenly;
+  grid-template-columns: 70% 20%;
+  grid-auto-rows: auto auto auto;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+}
+
+.header {
+  grid-column: span 2;
+  grid-row: 1;
+}
+
+.main {
+  grid-column: 1;
+  grid-row: 2;
+  padding-left: 50px;
+}
+
+.sidebar {
+  grid-column: 2;
+  grid-row: 2;
+  flex-wrap: wrap;
+  padding-right: 50px;
+}
+
+.footer {
+  grid-column: span 2;
+  grid-row: 3;
+}
