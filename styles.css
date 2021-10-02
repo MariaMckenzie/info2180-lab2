@@ -79,6 +79,10 @@ h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+#social, #archive {
+  padding-top: 30px;
+}
+
 /* Lists */
 ul {
   list-style: none;
@@ -127,6 +131,7 @@ footer {
   grid-column: 1;
   grid-row: 2;
   padding-left: 50px;
+  padding-bottom: 100px;
 }
 
 .sidebar {
